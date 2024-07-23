@@ -10,6 +10,14 @@ def encode(password):
     encoded_string = ''.join(encoded_list)
     return encoded_string
 
+def decode(password):
+    deccoded = ""
+    for char in password:
+        if int <= 2:
+            decoded += str(int(char) + 7)
+            continue
+        decoded += str(int(char) -3)
+    return decoded
 
 def menu():
     print("""Menu

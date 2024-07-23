@@ -10,6 +10,8 @@ def encode(password):
     encoded_string = ''.join(encoded_list)
     return encoded_string
 
+
+# DONE BY JACK
 def decode(password):
     deccoded = ""
     for char in password:
